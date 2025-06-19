@@ -77,6 +77,9 @@ body {
   /* text-align: center;
     justify-content: center; */
 }
+/* p{
+  text-indent: 2em;
+} */
 .bold {
   font-size: 20px;
   font-weight: bold;
@@ -98,6 +101,8 @@ body {
 } */
 li {
   margin: 12px;
+  /* text-indent: 2em; */
+
 }
 button {
   background-color: #3786d0;
