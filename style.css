@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Fraunces", serif, "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  text-decoration: none;
+
+  /* font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0; */
+}
+body {
+  background-color: hsl(136, 51%, 62%);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  line-height: 1.8;
+}
+.rapper {
+  /* border: black solid; */
+  width: 90%;
+  padding: 12px;
+}
+.image {
+  /* border: 2px blue solid; */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  /* text-align: center; */
+  justify-content: center;
+  /* border: red solid; */
+  /* height: 25vh; */
+  background-color: white;
+  padding: 12px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: hsl(158, 81%, 43%);
+  color: white;
+  border: none;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  display: block;
+  width: 215px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+  height: 9vh;
+}
+.dollar {
+  /* border: black solid; */
+  display: flex;
+  align-items: baseline;
+  padding-left: 50px;
+  /* text-align: center;
+    justify-content: center; */
+}
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: hsl(158, 36%, 37%);
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.wrong {
+  font-size: 15px;
+}
+.button img {
+  margin-right: 10px;
+  padding-left: 10px;
+}
+/* .list{
+   padding: 12px;
+} */
+li {
+  margin: 12px;
+}
+button {
+  background-color: #3786d0;
+  color: white;
+  border: none;
+
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  display: block;
+  width: 215px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+
+  padding-top: 10px;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: hsl(30, 38%, 92%);
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    background-color: hsl(143, 45%, 79%);
+  }
+  .rapper {
+    width: 600px;
+    /* display: flex; */
+  }
+  .image {
+    width: 50%;
+    /* display: none; */
+    background-image: url("./images/Al-Majeed\ pics.jpg");
+    height: 300px;
+    margin: auto;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    background-position: center;
+    background-size: 300px;
+    /* border-radius: 0px; */
+  }
+  .content {
+    width: 50%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border-radius: 15px; */
+    margin: auto;
+    /* height: 1500px; */
+  }
+  .image img {
+    display: none;
+  }
+}
